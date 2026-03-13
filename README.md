@@ -1,36 +1,125 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Motion Studio
 
-## Getting Started
+Online platform for movement classes.
 
-First, run the development server:
+This project is a web application where students can access **asynchronous training programs** and **live personalized sessions** with instructors.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+The platform is being built progressively, starting with the frontend structure and UI architecture before integrating backend services and databases.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+# Project Goals
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+The platform aims to provide a flexible environment for movement training including:
 
-## Learn More
+* Stretching classes
+* Dance classes (future expansion)
+* Personalized coaching sessions
+* Monthly training programs
 
-To learn more about Next.js, take a look at the following resources:
+---
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+# Main Features
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Student Features
 
-## Deploy on Vercel
+Students will be able to:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* Register an account
+* Log in to their profile
+* Purchase asynchronous class packs
+* Purchase live personalized sessions
+* Access their purchased courses
+* View upcoming classes
+* Organize their training schedule
+* Track their monthly programs
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Asynchronous programs include:
+
+* Pre-recorded videos
+* Written exercise explanations
+* Monthly structured training plans
+
+Live sessions include:
+
+* Personalized classes with the instructor
+* A scheduling system based on instructor availability
+* Calendar with upcoming sessions and reminders
+
+Video content will **not be downloadable**.
+
+---
+
+## Instructor Dashboard
+
+The instructor will have an administrative panel where they can:
+
+* Block or unblock students
+* Manage availability schedule
+* Review booked sessions
+* Track sold class packs
+* Upload asynchronous programs
+* Monitor monthly earnings and commissions
+
+---
+
+## Admin Panel
+
+The platform administrator will be able to:
+
+* Manage instructors and students
+* Adjust platform commission rates
+* Access platform statistics
+* Oversee class pack sales
+
+---
+
+# Tech Stack
+
+Frontend technologies used in this project:
+
+* **Next.js 15**
+* **React 19**
+* **TypeScript**
+* **TailwindCSS**
+* **Framer Motion**
+* **Lucide Icons**
+
+Additional libraries:
+
+* clsx
+* sweetalert2
+* react-icons
+* tailwindcss-animate
+
+---
+
+# Development Strategy
+
+The project will be built in phases:
+
+1. **Frontend architecture**
+2. UI structure and components
+3. State management
+4. Backend integration
+5. Authentication system
+6. Payment integration
+7. Video delivery system
+
+The first stage focuses on building a **neutral UI structure (grayscale layout)** to define user flows before applying final design and branding.
+
+---
+
+# Future Features
+
+* Dance class programs
+* Multi-instructor support
+* Progress tracking
+* Community features
+* Mobile optimization
+
+---
+
+# Author
+
+Developed as part of an independent web platform project using modern frontend technologies.
